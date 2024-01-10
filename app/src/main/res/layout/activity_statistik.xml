@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#201E28"
+    tools:context=".Statistik">
+
+
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вернуться в портфель"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#fdfdfd"
+        android:textSize="13dp"
+        android:id="@+id/stat_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Название акции"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/individ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Текущая ситуация"
+        android:textColor="#fdfdfd"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stat_title" />
+    <TextView
+        android:id="@+id/individ1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="13dp"
+        android:textColor="#fdfdfd"
+        android:fontFamily="@font/inter_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 текущая"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/individ" />
+    <TextView
+        android:id="@+id/individ2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#fdfdfd"
+        android:textSize="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 текущая"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/individ1" />
+    <TextView
+        android:layout_marginStart="20dp"
+        android:id="@+id/individ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="3 текущая"
+        android:textColor="#fdfdfd"
+        android:textSize="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/individ2" />
+    <TextView
+        android:id="@+id/individ4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="4 текущая"
+        android:textColor="#fdfdfd"
+        android:textSize="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/individ3" />
+
+
+
+    <TextView
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#fdfdfd"
+        android:textSize="13dp"
+        android:id="@+id/general"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Общая ситуация"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/individ4" />
+
+    <TextView
+        android:id="@+id/general1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="13dp"
+        android:textColor="#fdfdfd"
+        android:fontFamily="@font/inter_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 общая"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/general" />
+
+    <TextView
+        android:id="@+id/general2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="13dp"
+        android:textColor="#fdfdfd"
+        android:fontFamily="@font/inter_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 общая"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/general1" />
+
+    <TextView
+        android:id="@+id/general3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="13dp"
+        android:textColor="#fdfdfd"
+        android:fontFamily="@font/inter_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 общая"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/general2" />
+
+    <TextView
+        android:id="@+id/general4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="13dp"
+        android:textColor="#fdfdfd"
+        android:fontFamily="@font/inter_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 общая"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/general3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
